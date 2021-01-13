@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digitale Trainer</title>
     <!--link css bootstrap-->
+    <link rel="stylesheet" href="./style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
@@ -13,42 +14,84 @@
 </head>
 
 <body>
-
     <header>
-        <!-- Image and text -->
-        <nav class="navbar navbar-light bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="./img/logo.png" alt="logo" width="30" height="24" class="d-inline-block align-top">
-                    Digitale Trainer
-                </a>
-                <form class="d-flex">
+        <div class="container-fluid banner">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav class="navbar navbar-md">
+                        <a class="navbar-brand" href="#">
+                            Digitale Trainer
+                        </a>
+                        <ul class="nav">
 
-                    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                            <li class="nav-item">
+                                <a class="nav-link" href="./signin.html">Sign In</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./login.html">Log In</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="col-md-8 offset-md-2 info">
+                    <h3 class="text-center">Web Training Center</h3>
+                    <p class="text-center">
+                        Launch Your Web Career
+                        From TN'Coders First Professional Web Institute
+                    </p>
+                    <a href="#" class="btn btn-md text-center">More Information</a>
+                </div>
 
 
-                        <button class="btn btn-outline-success me-2 ">
-                            <a href="./login.html" class="navbar-brand">
-                                Log In
-                            </a>
-                        </button>
 
-
-                        <button class="btn btn-outline-danger">
-                            <a href="./signin.html" class="navbar-brand">
-                                Sign In</a>
-                        </button>
-                    </div>
-                </form>
 
             </div>
+        </div>
 
-        </nav>
     </header>
 
 
-
-
+    <!-- 
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+                      <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+                      <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./img/home page photo/1.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>First slide label</h5>
+                          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./img/home page photo/2.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Second slide label</h5>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./img/home page photo/3.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Third slide label</h5>
+                          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </a>
+                  </div>
+             -->
 
 
     <!--Bootstrap JS-->

@@ -237,3 +237,56 @@ section .section-title {
     height: 120px;
     border-radius: 50%;
 }
+.section-padding{
+	padding: 30px 0;
+}
+.section-header{
+	margin-bottom: 50px;
+}
+.section-header h2{
+	color: #586965;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.single-services{
+	transition: -5s;
+	text-align: center;
+	height: 380px;
+	padding: 115px 50px;
+}
+.single-services .icon
+{
+	background-color: #fff;
+	border-radius: 50%;
+	box-shadow: 0 2px 20px rgba(0,0,0,0.4);
+	color: #000;
+	display: inline-block;
+	height: 90px;
+	width: 90px;
+	margin-bottom: 35px;
+}
+.single-services .icon i{
+	display: block;
+	font-size: 32px;
+	line-height: 90px;
+}
+.single-services .content{
+	height: 32px;;
+	transition: .5s;
+}
+.single-services .content h3{
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 35px;
+	margin: 0;
+	text-transform: uppercase;
+}
+.single-services .content p{
+	color: #fff;
+	line-height: 29px;
+	margin: 27px 0 0;
+}
+.single-services:hover{
+	background-image: linear-gradient(to bottom, #586965 0%, #cacecd 100%);
+	padding: 60px 50px;
+}
